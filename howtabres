@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Wildcrow';
+  src: url(https://files.jcink.net/uploads2/cherryboomboom/Wildcrow.ttf);
+}
+
+
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url(https://files.jcink.net/uploads2/cherryboomboom/CaviarDreams.ttf);
+}
+
+
+@font-face {
+  font-family: 'Wild_Wolf';
+  src: url(https://files.jcink.net/uploads2/cherryboomboom/Wild_Wolf.ttf);
+}
+
+
+.howtab {
+  width: 550px;
+  max-width: 100%;
+  margin: 40px auto;
+  padding: 20px 0 30px;
+  background: #000;
+  border: 1px solid #000;
+  box-shadow: 0 0 10px #ffffff, 0 0 25px #00F5FF;
+}
+
+
+.howtab1 {
+  font-family: Wildcrow;
+  font-size: 20px;
+  color: #747474;
+  text-align: center;
+  opacity: .5;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+
+.howtab2 {
+  font-size: 55px;
+  font-family: Wild_Wolf;
+  text-align: center;
+  margin-top: 35px;
+  color: #fff;
+  animation: neon 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 5px #00F5FF, 0 0 10px #00F5FF, 0 0 20px #00F5FF, 0 0 40px #00F5FF;
+  }
+  to {
+    text-shadow: 0 0 10px #00F5FF, 0 0 20px #00F5FF, 0 0 40px #00F5FF, 0 0 80px #00F5FF, 0 0 120px #00F5FF;
+  }
+}
+
+
+.howtab3 {
+  width: 400px;
+  max-width: 90%;
+  margin: 50px auto;
+  font-family: CaviarDreams;
+  font-size: 13px;
+  line-height: 120%;
+  color: #BDBDBD;
+  text-align: justify;
+}
+
+
+.howtab3 b,
+.howtab3 i {
+  background: linear-gradient(90deg, #00F5FF, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
+  font-size: 13px;
+}
+
+
+.howtab4 {
+  width: 370px;
+  max-width: 90%;
+  margin: 25px auto 0;
+  padding: 20px;
+  background: #1A1A1A;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ffffff, 0 0 25px #00F5FF;
+  font-family: CaviarDreams;
+  font-size: 13px;
+  color: #BDBDBD;
+}
+
+
+.howinfo {
+  margin: 2px 0;
+  line-height: 1.2;
+}
+
+
+.howinfo b {
+  background: linear-gradient(90deg, #00f5ff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 13px;
+  font-family: Wildcrow;
+}
+
+
+.howinfo + .howinfo {
+  margin-top: 15px;
+}
